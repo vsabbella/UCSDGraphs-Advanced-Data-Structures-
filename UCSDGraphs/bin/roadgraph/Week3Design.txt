@@ -1,0 +1,33 @@
+Class: MapGraph
+
+Modifications made to MapGraph (what and why):
+    Added variables numEdges and numVertices to track number of edges and vertices.
+    Added a map variable mapGraphAdjList to represent the graph using adjacency list.
+    Initialized the variables in constructor.
+    Implemented getters getNumEdges, getNumVertices and getVertices 
+    Implemented the methods addVertices and add Edges
+    Implemented bfs
+    Added printgraph method
+    And Updated the main method to test with data from simplemap.data.
+
+ 
+
+Class name: MapNode
+
+Purpose and description of class:
+This class reprents the Vertices in a graph along with its neighbouring vertices. 
+The neighbouring vertices are tracked using MapEdge datatype.
+It also contains location information represented using Geographic point.
+
+
+Class name: MapEdge
+
+Purpose and description of class:
+This class represents the neighbours of vertices and their
+resepective informatoin like type of road, name of road and distance.
+
+
+Overall design:
+The graph is represented using adjacency list matrix. As the start and endpoints are represented using Geographic point,
+the adjacency list points from GeographicPoint to MapNode. MapNode are retrieved from adjacencyList for traversal from start to goal using MapNode.
+We get the list of neighbours from MapNode represented using list of edges.

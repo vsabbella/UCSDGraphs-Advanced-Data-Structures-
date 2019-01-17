@@ -1,0 +1,983 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b0bf8871-8793-4038-b6a1-11fc3e6394e0" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/bin/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="MapGraph.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/roadgraph/MapGraph.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="70">
+              <caret line="282" column="23" lean-forward="true" selection-start-line="282" selection-start-column="23" selection-end-line="282" selection-end-column="23" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#5119#5136#0" expanded="true" />
+                <element signature="e#5197#5206#0" expanded="true" />
+                <element signature="e#5312#5329#0" expanded="true" />
+                <element signature="e#5424#5433#0" expanded="true" />
+                <element signature="e#8274#8291#0" expanded="true" />
+                <element signature="e#8478#8487#0" expanded="true" />
+                <element signature="e#8591#8608#0" expanded="true" />
+                <element signature="e#8579#8588#0" expanded="true" />
+                <element signature="e#10397#10414#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MapApp.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/application/MapApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2006">
+              <caret line="74" column="25" lean-forward="true" selection-start-line="74" selection-start-column="25" selection-end-line="74" selection-end-column="25" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ucsd.intersections" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/intersections/ucsd.intersections">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="34" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="simpletest.map" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/testdata/simpletest.map">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="31" lean-forward="true" selection-start-column="31" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+        <option value="Singleton" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>AIzaSyCgkCrBM0wTz-a9F6JQWxvWZuHsDvVXz4E</find>
+      <find>return</find>
+      <find>Test</find>
+      <find>fore</find>
+      <find>parentMap</find>
+    </findStrings>
+    <dirStrings>
+      <dir>C:\Users\vsabbell\Projects\Object Oriented Programming DS\UCSDGraphs</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/.classpath" />
+        <option value="$PROJECT_DIR$/src/html/index.html" />
+        <option value="$PROJECT_DIR$/data/maps/mapfiles.list" />
+        <option value="$PROJECT_DIR$/src/basicgraph/Graph.java" />
+        <option value="$PROJECT_DIR$/src/util/GraphLoader.java" />
+        <option value="$PROJECT_DIR$/src/basicgraph/GraphAdjMatrix.java" />
+        <option value="$PROJECT_DIR$/src/roadgraph/MapGraphAdjList.kt" />
+        <option value="$PROJECT_DIR$/src/basicgraph/GraphAdjList.java" />
+        <option value="$PROJECT_DIR$/src/roadgraph/MapGraphAdjList.java" />
+        <option value="$PROJECT_DIR$/src/roadgraph/MapNode.Java" />
+        <option value="$PROJECT_DIR$/src/roadgraph/MapEdge.java" />
+        <option value="$PROJECT_DIR$/src/roadgraph/WeightedMapNode.java" />
+        <option value="$PROJECT_DIR$/data/testdata/simpletest.map" />
+        <option value="$PROJECT_DIR$/src/roadgraph/MapNode.java" />
+        <option value="$PROJECT_DIR$/src/roadgraph/PriorityQueueDemo.java" />
+        <option value="$PROJECT_DIR$/src/roadgraph/MapGraph.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1296" />
+    <option name="height" value="696" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <autoscrollFromSource ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="UCSDGraphs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UCSDGraphs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UCSDGraphs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UCSDGraphs" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UCSDGraphs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UCSDGraphs" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="intersections" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UCSDGraphs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UCSDGraphs" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="maps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UCSDGraphs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UCSDGraphs" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="testdata" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UCSDGraphs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UCSDGraphs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UCSDGraphs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UCSDGraphs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UCSDGraphs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UCSDGraphs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="basicgraph" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UCSDGraphs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UCSDGraphs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="geography" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UCSDGraphs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UCSDGraphs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="roadgraph" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UCSDGraphs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UCSDGraphs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UCSDGraphs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="UCSDGraphs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="UCSDGraphs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UCSDGraphs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UCSDGraphs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="awt" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UCSDGraphs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="awt" type="462c0819:PsiDirectoryNode" />
+              <item name="geom" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UCSDGraphs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lang" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UCSDGraphs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="roadgraph" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.MapGraph">
+    <configuration name="MapApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="application.MapApp" />
+      <module name="UCSDGraphs" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="application.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="MapGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="roadgraph.MapGraph" />
+      <module name="UCSDGraphs" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="roadgraph.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="MapGraphAdjList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MapGraphAdjList" />
+      <module name="UCSDGraphs" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="PriorityQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="roadgraph.PriorityQueueDemo" />
+      <module name="UCSDGraphs" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="roadgraph.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="SearchGrader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="roadgraph.SearchGrader" />
+      <module name="UCSDGraphs" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="roadgraph.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <list>
+      <item itemvalue="Application.MapGraph" />
+      <item itemvalue="Application.MapGraphAdjList" />
+      <item itemvalue="Application.MapApp" />
+      <item itemvalue="Application.SearchGrader" />
+      <item itemvalue="Application.PriorityQueueDemo" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MapGraph" />
+        <item itemvalue="Application.MapApp" />
+        <item itemvalue="Application.PriorityQueueDemo" />
+        <item itemvalue="Application.SearchGrader" />
+        <item itemvalue="Application.MapGraphAdjList" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b0bf8871-8793-4038-b6a1-11fc3e6394e0" name="Default" comment="" />
+      <created>1546014765252</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1546014765252</updated>
+      <workItem from="1546014773241" duration="49896000" />
+      <workItem from="1547020371112" duration="9975000" />
+      <workItem from="1547101117768" duration="11456000" />
+      <workItem from="1547249803795" duration="38961000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="110288000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.50121456" side_tool="true" weight="0.33989266" />
+      <window_info anchor="bottom" id="Anonymous Apex" order="8" />
+      <window_info anchor="right" id="Maven Projects" order="4" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49840087" weight="0.39892665" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49878544" weight="0.33989266" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840087" weight="0.6690519" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49946696" weight="0.32897604" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.32307693" />
+      <window_info anchor="bottom" id="SOQL Query" order="13" />
+      <window_info anchor="bottom" id="Log Viewer" order="7" weight="0.32737032" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="bottom" id="Log Viewer" order="7" weight="0.32737032" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Palette" order="8" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840087" weight="0.6905188" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49946696" weight="0.32897604" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.50121456" side_tool="true" weight="0.33989266" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49878544" weight="0.33989266" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Anonymous Apex" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
+      <window_info anchor="right" id="Maven Projects" order="4" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3125506" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="SOQL Query" order="13" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49840087" weight="0.39892665" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/roadgraph/MapEdge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="91" selection-start-line="10" selection-start-column="91" selection-end-line="10" selection-end-column="91" />
+          <folding>
+            <element signature="e#0#496#0" expanded="true" />
+            <element signature="e#431#432#0" expanded="true" />
+            <element signature="e#462#463#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/geography/GeographicPoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/basicgraph/Graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="54" column="24" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4813#4814#0" expanded="true" />
+            <element signature="e#4864#4865#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/roadgraph/MapNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#0#767#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#357#358#0" expanded="true" />
+            <element signature="e#388#389#0" expanded="true" />
+            <element signature="e#276#277#0" expanded="true" />
+            <element signature="e#304#305#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/application/controllers/FetchController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="125" column="20" selection-start-line="125" selection-start-column="20" selection-end-line="125" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/application/TestApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.project">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.classpath">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UCSDGraphs.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/intersections/stanford.intersections">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-12204" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/html/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/intersections/simpletest.intersections">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/maps/utc.map">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/maps/stanford.map">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="73" lean-forward="true" selection-start-line="7" selection-start-column="73" selection-end-line="7" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/airports/routesUA.dat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="10" selection-start-column="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/maps/mapfiles.list">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/basicgraph/GraphGrader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/basicgraph/GraphAdjMatrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="110" column="18" selection-start-line="110" selection-start-column="18" selection-end-line="110" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1998#2007#0" expanded="true" />
+            <element signature="e#3132#3141#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/basicgraph/course3week2zip.zip">
+      <provider selected="true" editor-type-id="apk-viewer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/basicgraph/DegreeGrader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/week3example/MazeLoader.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/week3example/MazeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/roadgraph/MapGraphAdjList.kt" />
+    <entry file="file://$PROJECT_DIR$/src/week3example/Maze.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="41" column="40" lean-forward="true" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/function/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/application/DataSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="57" column="16" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/basicgraph/GraphAdjList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-578">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#607#608#0" expanded="true" />
+            <element signature="e#641#642#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/roadgraph/MapGraphAdjList.java" />
+    <entry file="file://$PROJECT_DIR$/src/roadgraph/AStarGrader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="19" column="3" lean-forward="true" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/AbstractList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="147" selection-start-line="147" selection-end-line="147" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/lang/IllegalArgumentException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="35" column="6" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/roadgraph/SearchGrader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2329">
+          <caret line="149" column="15" selection-start-line="149" selection-start-column="15" selection-end-line="149" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/basicgraph/Graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="54" column="24" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4813#4814#0" expanded="true" />
+            <element signature="e#4864#4865#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/util/GraphLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="477">
+          <caret line="324" column="24" selection-start-line="324" selection-start-column="24" selection-end-line="324" selection-end-column="24" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#3341#3342#0" expanded="true" />
+            <element signature="e#3386#3387#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/awt/geom/Point2D.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6596">
+          <caret line="425" column="33" selection-start-line="425" selection-start-column="33" selection-end-line="425" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/roadgraph/GeographicDistance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/lang/Double.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="48" column="19" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="49">
+          <caret line="3209" selection-start-line="3209" selection-end-line="3209" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/roadgraph/WeightedMapNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="28" />
+          <folding>
+            <element signature="e#84#85#0" expanded="true" />
+            <element signature="e#115#116#0" expanded="true" />
+            <element signature="e#163#164#0" expanded="true" />
+            <element signature="e#203#204#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/geography/GeographicPoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="27" column="20" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/roadgraph/MapEdge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/roadgraph/MapNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-370">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#537#538#0" expanded="true" />
+            <element signature="e#568#569#0" expanded="true" />
+            <element signature="e#616#617#0" expanded="true" />
+            <element signature="e#656#657#0" expanded="true" />
+            <element signature="e#766#767#0" expanded="true" />
+            <element signature="e#797#798#0" expanded="true" />
+            <element signature="e#880#881#0" expanded="true" />
+            <element signature="e#908#909#0" expanded="true" />
+            <element signature="e#1264#1265#0" expanded="true" />
+            <element signature="e#1337#1338#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/maps/ucsd.map">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/PriorityQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="335" selection-start-line="335" selection-end-line="335" />
+          <folding>
+            <element signature="e#15508#15509#0" expanded="true" />
+            <element signature="e#15557#15558#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/Iterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="112" column="21" selection-start-line="112" selection-start-column="17" selection-end-line="112" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/roadgraph/PriorityQueueDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+          <folding>
+            <element signature="e#238#247#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/intersections/ucsd.intersections">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="34" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/testdata/simpletest.map">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="31" lean-forward="true" selection-start-column="31" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/application/MapApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2006">
+          <caret line="74" column="25" lean-forward="true" selection-start-line="74" selection-start-column="25" selection-end-line="74" selection-end-column="25" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/roadgraph/MapGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="282" column="23" lean-forward="true" selection-start-line="282" selection-start-column="23" selection-end-line="282" selection-end-column="23" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#5119#5136#0" expanded="true" />
+            <element signature="e#5197#5206#0" expanded="true" />
+            <element signature="e#5312#5329#0" expanded="true" />
+            <element signature="e#5424#5433#0" expanded="true" />
+            <element signature="e#8274#8291#0" expanded="true" />
+            <element signature="e#8478#8487#0" expanded="true" />
+            <element signature="e#8591#8608#0" expanded="true" />
+            <element signature="e#8579#8588#0" expanded="true" />
+            <element signature="e#10397#10414#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>jdk1.8.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>UCSDGraphs</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>IlluminatedCloud (EA-Packaging/EA-Packaging)</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
